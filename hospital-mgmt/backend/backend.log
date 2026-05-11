@@ -1,0 +1,698 @@
+nohup: ignoring input
+[2026-05-11 13:19:20 +0000] [22394] [INFO] Starting gunicorn 21.2.0
+[2026-05-11 13:19:20 +0000] [22394] [INFO] Listening at: http://0.0.0.0:5000 (22394)
+[2026-05-11 13:19:20 +0000] [22394] [INFO] Using worker: sync
+[2026-05-11 13:19:20 +0000] [22395] [INFO] Booting worker with pid: 22395
+[2026-05-11 13:19:20 +0000] [22396] [INFO] Booting worker with pid: 22396
+[2026-05-11 13:19:21 +0000] [22397] [INFO] Booting worker with pid: 22397
+[2026-05-11 13:19:21 +0000] [22398] [INFO] Booting worker with pid: 22398
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+27.6.128.90 - - [11/May/2026:13:19:29 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 13:20:00 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:22396)
+[2026-05-11 13:20:00 +0000] [22396] [INFO] Worker exiting (pid: 22396)
+[2026-05-11 13:20:00 +0000] [22394] [ERROR] Worker (pid:22396) exited with code 1
+[2026-05-11 13:20:00 +0000] [22394] [ERROR] Worker (pid:22396) exited with code 1.
+[2026-05-11 13:20:00 +0000] [22633] [INFO] Booting worker with pid: 22633
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+27.6.128.90 - - [11/May/2026:13:22:27 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 13:22:58 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:22395)
+[2026-05-11 13:22:58 +0000] [22395] [INFO] Worker exiting (pid: 22395)
+[2026-05-11 13:22:58 +0000] [22394] [ERROR] Worker (pid:22395) exited with code 1
+[2026-05-11 13:22:58 +0000] [22394] [ERROR] Worker (pid:22395) exited with code 1.
+[2026-05-11 13:22:58 +0000] [23708] [INFO] Booting worker with pid: 23708
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+27.6.128.90 - - [11/May/2026:13:24:55 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 13:25:26 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:23708)
+[2026-05-11 13:25:26 +0000] [23708] [INFO] Worker exiting (pid: 23708)
+[2026-05-11 13:25:26 +0000] [22394] [ERROR] Worker (pid:23708) exited with code 1
+[2026-05-11 13:25:26 +0000] [22394] [ERROR] Worker (pid:23708) exited with code 1.
+[2026-05-11 13:25:26 +0000] [24601] [INFO] Booting worker with pid: 24601
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+27.6.128.90 - - [11/May/2026:13:45:46 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 13:46:16 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:22397)
+[2026-05-11 13:46:16 +0000] [22397] [INFO] Worker exiting (pid: 22397)
+[2026-05-11 13:46:16 +0000] [22394] [ERROR] Worker (pid:22397) exited with code 1
+[2026-05-11 13:46:16 +0000] [22394] [ERROR] Worker (pid:22397) exited with code 1.
+[2026-05-11 13:46:16 +0000] [30149] [INFO] Booting worker with pid: 30149
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:57:13 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:22398)
+[2026-05-11 13:57:13 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:22633)
+[2026-05-11 13:57:13 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:24601)
+[2026-05-11 13:57:13 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:30149)
+[2026-05-11 13:57:13 +0000] [22398] [INFO] Worker exiting (pid: 22398)
+[2026-05-11 13:57:13 +0000] [22633] [INFO] Worker exiting (pid: 22633)
+[2026-05-11 13:57:13 +0000] [24601] [INFO] Worker exiting (pid: 24601)
+[2026-05-11 13:57:13 +0000] [30149] [INFO] Worker exiting (pid: 30149)
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:22398) exited with code 1
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:22398) exited with code 1.
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:22633) exited with code 1
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:22633) exited with code 1.
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:30149) exited with code 1
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:30149) exited with code 1.
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:24601) exited with code 1
+[2026-05-11 13:57:13 +0000] [22394] [ERROR] Worker (pid:24601) exited with code 1.
+[2026-05-11 13:57:13 +0000] [34134] [INFO] Booting worker with pid: 34134
+[2026-05-11 13:57:13 +0000] [34135] [INFO] Booting worker with pid: 34135
+[2026-05-11 13:57:13 +0000] [34136] [INFO] Booting worker with pid: 34136
+[2026-05-11 13:57:13 +0000] [34137] [INFO] Booting worker with pid: 34137
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:57:45 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34134)
+[2026-05-11 13:57:45 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34135)
+[2026-05-11 13:57:45 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34136)
+[2026-05-11 13:57:45 +0000] [34134] [INFO] Worker exiting (pid: 34134)
+[2026-05-11 13:57:45 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34137)
+[2026-05-11 13:57:45 +0000] [34136] [INFO] Worker exiting (pid: 34136)
+[2026-05-11 13:57:45 +0000] [34135] [INFO] Worker exiting (pid: 34135)
+[2026-05-11 13:57:45 +0000] [34137] [INFO] Worker exiting (pid: 34137)
+[2026-05-11 13:57:45 +0000] [22394] [ERROR] Worker (pid:34136) exited with code 1
+[2026-05-11 13:57:45 +0000] [22394] [ERROR] Worker (pid:34136) exited with code 1.
+[2026-05-11 13:57:45 +0000] [34334] [INFO] Booting worker with pid: 34334
+[2026-05-11 13:57:45 +0000] [22394] [ERROR] Worker (pid:34135) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:57:45 +0000] [22394] [ERROR] Worker (pid:34137) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:57:45 +0000] [22394] [ERROR] Worker (pid:34134) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:57:45 +0000] [34335] [INFO] Booting worker with pid: 34335
+[2026-05-11 13:57:45 +0000] [34336] [INFO] Booting worker with pid: 34336
+[2026-05-11 13:57:45 +0000] [34337] [INFO] Booting worker with pid: 34337
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:58:17 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34334)
+[2026-05-11 13:58:17 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34335)
+[2026-05-11 13:58:17 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34336)
+[2026-05-11 13:58:17 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34337)
+[2026-05-11 13:58:17 +0000] [34334] [INFO] Worker exiting (pid: 34334)
+[2026-05-11 13:58:17 +0000] [34336] [INFO] Worker exiting (pid: 34336)
+[2026-05-11 13:58:17 +0000] [34335] [INFO] Worker exiting (pid: 34335)
+[2026-05-11 13:58:17 +0000] [34337] [INFO] Worker exiting (pid: 34337)
+[2026-05-11 13:58:18 +0000] [22394] [ERROR] Worker (pid:34336) exited with code 1
+[2026-05-11 13:58:18 +0000] [22394] [ERROR] Worker (pid:34336) exited with code 1.
+[2026-05-11 13:58:18 +0000] [34573] [INFO] Booting worker with pid: 34573
+[2026-05-11 13:58:18 +0000] [22394] [ERROR] Worker (pid:34334) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:18 +0000] [22394] [ERROR] Worker (pid:34335) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:18 +0000] [22394] [ERROR] Worker (pid:34337) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:18 +0000] [34574] [INFO] Booting worker with pid: 34574
+[2026-05-11 13:58:18 +0000] [34575] [INFO] Booting worker with pid: 34575
+[2026-05-11 13:58:18 +0000] [34576] [INFO] Booting worker with pid: 34576
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:58:50 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34573)
+[2026-05-11 13:58:50 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34574)
+[2026-05-11 13:58:50 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34575)
+[2026-05-11 13:58:50 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34576)
+[2026-05-11 13:58:50 +0000] [34573] [INFO] Worker exiting (pid: 34573)
+[2026-05-11 13:58:50 +0000] [34575] [INFO] Worker exiting (pid: 34575)
+[2026-05-11 13:58:50 +0000] [34574] [INFO] Worker exiting (pid: 34574)
+[2026-05-11 13:58:50 +0000] [34576] [INFO] Worker exiting (pid: 34576)
+[2026-05-11 13:58:50 +0000] [22394] [ERROR] Worker (pid:34575) exited with code 1
+[2026-05-11 13:58:50 +0000] [22394] [ERROR] Worker (pid:34575) exited with code 1.
+[2026-05-11 13:58:50 +0000] [34812] [INFO] Booting worker with pid: 34812
+[2026-05-11 13:58:50 +0000] [22394] [ERROR] Worker (pid:34573) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:50 +0000] [22394] [ERROR] Worker (pid:34574) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:50 +0000] [22394] [ERROR] Worker (pid:34576) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:58:50 +0000] [34813] [INFO] Booting worker with pid: 34813
+[2026-05-11 13:58:50 +0000] [34814] [INFO] Booting worker with pid: 34814
+[2026-05-11 13:58:50 +0000] [34821] [INFO] Booting worker with pid: 34821
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:59:22 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34812)
+[2026-05-11 13:59:22 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34813)
+[2026-05-11 13:59:22 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34814)
+[2026-05-11 13:59:22 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:34821)
+[2026-05-11 13:59:22 +0000] [34812] [INFO] Worker exiting (pid: 34812)
+[2026-05-11 13:59:22 +0000] [34813] [INFO] Worker exiting (pid: 34813)
+[2026-05-11 13:59:22 +0000] [34814] [INFO] Worker exiting (pid: 34814)
+[2026-05-11 13:59:22 +0000] [34821] [INFO] Worker exiting (pid: 34821)
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34813) exited with code 1
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34813) exited with code 1.
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34821) exited with code 1
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34821) exited with code 1.
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34812) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34814) exited with code 1
+[2026-05-11 13:59:22 +0000] [22394] [ERROR] Worker (pid:34814) exited with code 1.
+[2026-05-11 13:59:22 +0000] [35044] [INFO] Booting worker with pid: 35044
+[2026-05-11 13:59:22 +0000] [35047] [INFO] Booting worker with pid: 35047
+[2026-05-11 13:59:23 +0000] [35048] [INFO] Booting worker with pid: 35048
+[2026-05-11 13:59:23 +0000] [35049] [INFO] Booting worker with pid: 35049
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 13:59:55 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35044)
+[2026-05-11 13:59:55 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35047)
+[2026-05-11 13:59:55 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35048)
+[2026-05-11 13:59:55 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35049)
+[2026-05-11 13:59:55 +0000] [35044] [INFO] Worker exiting (pid: 35044)
+[2026-05-11 13:59:55 +0000] [35047] [INFO] Worker exiting (pid: 35047)
+[2026-05-11 13:59:55 +0000] [35048] [INFO] Worker exiting (pid: 35048)
+[2026-05-11 13:59:55 +0000] [35049] [INFO] Worker exiting (pid: 35049)
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35047) exited with code 1
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35047) exited with code 1.
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35049) exited with code 1
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35049) exited with code 1.
+[2026-05-11 13:59:55 +0000] [35283] [INFO] Booting worker with pid: 35283
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35044) exited with code 1
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35044) exited with code 1.
+[2026-05-11 13:59:55 +0000] [22394] [ERROR] Worker (pid:35048) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 13:59:55 +0000] [35284] [INFO] Booting worker with pid: 35284
+[2026-05-11 13:59:55 +0000] [35285] [INFO] Booting worker with pid: 35285
+[2026-05-11 13:59:55 +0000] [35286] [INFO] Booting worker with pid: 35286
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 14:00:27 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35283)
+[2026-05-11 14:00:27 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35284)
+[2026-05-11 14:00:27 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35285)
+[2026-05-11 14:00:27 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35286)
+[2026-05-11 14:00:27 +0000] [35283] [INFO] Worker exiting (pid: 35283)
+[2026-05-11 14:00:27 +0000] [35285] [INFO] Worker exiting (pid: 35285)
+[2026-05-11 14:00:27 +0000] [35284] [INFO] Worker exiting (pid: 35284)
+[2026-05-11 14:00:27 +0000] [35286] [INFO] Worker exiting (pid: 35286)
+[2026-05-11 14:00:27 +0000] [22394] [ERROR] Worker (pid:35285) exited with code 1
+[2026-05-11 14:00:27 +0000] [22394] [ERROR] Worker (pid:35285) exited with code 1.
+[2026-05-11 14:00:27 +0000] [35470] [INFO] Booting worker with pid: 35470
+[2026-05-11 14:00:27 +0000] [22394] [ERROR] Worker (pid:35284) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 14:00:27 +0000] [22394] [ERROR] Worker (pid:35286) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 14:00:27 +0000] [22394] [ERROR] Worker (pid:35283) was sent SIGKILL! Perhaps out of memory?
+[2026-05-11 14:00:27 +0000] [35471] [INFO] Booting worker with pid: 35471
+[2026-05-11 14:00:27 +0000] [35472] [INFO] Booting worker with pid: 35472
+[2026-05-11 14:00:27 +0000] [35473] [INFO] Booting worker with pid: 35473
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /queue/status HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /metrics HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /.well-known/mcp.json HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /.well-known/agent.json HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /health HTTP/1.1" 200 56 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /docs HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /v1/schema HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /predict HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /inference HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /config HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /api/v1/version HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /api/2.0/mlflow/experiments/list HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /api/kernels HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /sse HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /embed HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+209.222.101.194 - - [11/May/2026:14:00:29 +0000] "GET /api/v1/status HTTP/1.1" 404 207 "-" "Umai-Scanner/1.0 (+https://umai.entelijan.com/methodology)"
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+[2026-05-11 14:00:59 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35470)
+[2026-05-11 14:00:59 +0000] [35470] [INFO] Worker exiting (pid: 35470)
+[2026-05-11 14:01:00 +0000] [22394] [ERROR] Worker (pid:35470) exited with code 1
+[2026-05-11 14:01:00 +0000] [22394] [ERROR] Worker (pid:35470) exited with code 1.
+[2026-05-11 14:01:00 +0000] [35475] [INFO] Booting worker with pid: 35475
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+122.177.247.50 - - [11/May/2026:15:22:52 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:22:52 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:05 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:05 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:06 +0000] "GET /api/patients HTTP/1.1" 308 265 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:07 +0000] "GET /api/patients/ HTTP/1.1" 200 835 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:09 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:30 +0000] "GET /api/patients/ HTTP/1.1" 200 835 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:31 +0000] "GET /api/doctors HTTP/1.1" 308 263 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:32 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:32 +0000] "GET /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:32 +0000] "GET /api/appointments/ HTTP/1.1" 200 756 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:33 +0000] "GET /api/patients/ HTTP/1.1" 200 835 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:34 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:35 +0000] "GET /api/patients/ HTTP/1.1" 200 835 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:35 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:38 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:39 +0000] "GET /api/appointments/ HTTP/1.1" 200 756 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:47 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:48 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:33:50 +0000] "GET /api/appointments/ HTTP/1.1" 200 756 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:02 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:32 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:32 +0000] "GET /api/patients/ HTTP/1.1" 200 835 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:38 +0000] "DELETE /api/patients/21 HTTP/1.1" 200 43 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:39 +0000] "GET /api/patients/ HTTP/1.1" 200 688 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:39 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:54 +0000] "POST /api/patients HTTP/1.1" 308 265 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:55 +0000] "POST /api/patients/ HTTP/1.1" 201 141 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:55 +0000] "GET /api/patients HTTP/1.1" 308 265 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:56 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:57 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:34:59 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:08 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:19 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:25 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:28 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:35:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:36:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:36:17 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:36:24 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:36:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:05 +0000] "GET /api/doctors/ HTTP/1.1" 200 679 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:23 +0000] "POST /api/doctors HTTP/1.1" 308 263 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:24 +0000] "POST /api/doctors/ HTTP/1.1" 201 137 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:24 +0000] "GET /api/doctors HTTP/1.1" 308 263 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:25 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:25 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:30 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:33 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:37:35 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:38:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:38:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:39:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:39:33 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:39:35 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:40:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:40:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:40:42 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:01 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:02 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:03 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:04 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:05 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:33 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:35 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:41:38 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:42:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:42:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:43:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:44:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:45:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:46:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:47:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:48:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:51:15 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:52:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:53:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+127.0.0.1 - - [11/May/2026:15:53:37 +0000] "GET /api/getData?path=player%3Aplayer%2Fdata&roles=value HTTP/1.1" 404 207 "-" "-"
+122.177.247.50 - - [11/May/2026:15:54:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:55:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:15:56:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:15:46 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:16:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:46 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:47 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:48 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:49 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:49 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:53 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:57 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:58 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:17:59 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:00 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:07 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:07 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:13 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:14 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:14 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:18 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:27 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:27 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:28 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:29 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:30 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:31 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:31 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:31 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:31 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:31 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:32 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:32 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:33 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:33 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:35 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:35 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:35 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:36 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:36 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:36 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:36 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:36 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:18:49 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:13 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:14 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:14 +0000] "GET /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:14 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:18 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:23 +0000] "GET /api/patients/ HTTP/1.1" 200 829 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:36 +0000] "POST /api/patients HTTP/1.1" 308 265 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:37 +0000] "POST /api/patients/ HTTP/1.1" 201 142 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:37 +0000] "GET /api/patients HTTP/1.1" 308 265 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:38 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:39 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:39 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:40 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:40 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:41 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:41 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:42 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:42 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:43 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:43 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:48 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:49 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:19:51 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:20:13 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:20:43 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:21:13 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:21:43 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:22:13 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:22:43 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:23:01 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 16:23:32 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35471)
+[2026-05-11 16:23:32 +0000] [35471] [INFO] Worker exiting (pid: 35471)
+[2026-05-11 16:23:32 +0000] [22394] [ERROR] Worker (pid:35471) exited with code 1
+[2026-05-11 16:23:32 +0000] [22394] [ERROR] Worker (pid:35471) exited with code 1.
+[2026-05-11 16:23:32 +0000] [51331] [INFO] Booting worker with pid: 51331
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+122.177.247.50 - - [11/May/2026:16:23:34 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:23:35 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 16:24:05 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:35472)
+[2026-05-11 16:24:05 +0000] [35472] [INFO] Worker exiting (pid: 35472)
+[2026-05-11 16:24:05 +0000] [22394] [ERROR] Worker (pid:35472) exited with code 1
+[2026-05-11 16:24:05 +0000] [22394] [ERROR] Worker (pid:35472) exited with code 1.
+[2026-05-11 16:24:05 +0000] [51530] [INFO] Booting worker with pid: 51530
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+122.177.247.50 - - [11/May/2026:16:26:26 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:27 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:28 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:28 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:28 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:28 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:29 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:30 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:30 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:31 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:31 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:32 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:35 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:36 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:36 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:36 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:38 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:39 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:39 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:39 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:39 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:41 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:41 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:41 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:42 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:55 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:26:55 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:33:25 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:33:25 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:46 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:47 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:48 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:48 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:48 +0000] "GET /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:48 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:49 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:49 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:50 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:51 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:51 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:52 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:54 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:56 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:57 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:58 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:58 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:40:58 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:41:09 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:41:09 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:42:34 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:42:42 +0000] "POST /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:42:42 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:42:47 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:43:18 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:43:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:18 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:50 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:50 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:51 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:51 +0000] "GET /api/appointments HTTP/1.1" 308 273 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:51 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:52 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:56 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:57 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:58 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:44:59 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:00 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:00 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:01 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:11 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:14 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:20 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:21 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:45:51 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:46:21 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:46:51 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:21 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:51 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:52 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:54 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:54 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:54 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:56 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:58 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:59 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:59 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:47:59 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:48:08 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:48:19 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:48:23 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:48:24 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:48:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:49:24 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:49:54 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:50:24 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:50:54 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:51:24 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:51:54 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:52:55 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:53:56 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:54:57 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:55:58 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:51 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:51 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:52 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:53 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:53 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:55 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:56 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:57 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:57 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:56:57 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:57:08 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:57:16 +0000] "POST /api/appointments/ HTTP/1.1" 400 59 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:57:22 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:57:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:58:23 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:58:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:59:23 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:16:59:53 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:00:23 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:01:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:01:50 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:01:52 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:06 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:07 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:07 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:08 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:08 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:08 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:08 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:09 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:10 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:11 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:11 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:11 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:02:37 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:03:07 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:03:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:04:08 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:04:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:05:08 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:05:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:06:30 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:06:38 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:07:08 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:08:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:09:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:10:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:11:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:12:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:13:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:13:30 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 17:14:01 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:51530)
+[2026-05-11 17:14:01 +0000] [51530] [INFO] Worker exiting (pid: 51530)
+[2026-05-11 17:14:01 +0000] [22394] [ERROR] Worker (pid:51530) exited with code 1
+[2026-05-11 17:14:01 +0000] [22394] [ERROR] Worker (pid:51530) exited with code 1.
+[2026-05-11 17:14:01 +0000] [69518] [INFO] Booting worker with pid: 69518
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+122.177.247.50 - - [11/May/2026:17:14:12 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:13 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:13 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:14 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:14 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:14 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:15 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:16 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:18 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:19 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:19 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:19 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:14:44 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:15:14 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:15:44 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:16:14 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:16:44 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:17:14 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:17:44 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:18:45 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:19:46 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:20:47 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:26:46 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:27:47 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:28:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:29:49 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:14 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:34 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:36 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:36 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:38 +0000] "GET /api/appointments/ HTTP/1.1" 200 510 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:39 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:39 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:39 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:39 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:30:53 +0000] "POST /api/appointments/ HTTP/1.1" 201 234 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:05 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:18 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:18 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:19 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:19 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:25 +0000] "POST /api/appointments/ HTTP/1.1" 201 235 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:31:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:32:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:32:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:33:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:33:36 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:34:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:35:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:36:06 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:36:43 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:36:44 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:36:48 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:37:18 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:37:21 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-05-11 17:37:51 +0000] [22394] [CRITICAL] WORKER TIMEOUT (pid:69518)
+[2026-05-11 17:37:51 +0000] [69518] [INFO] Worker exiting (pid: 69518)
+[2026-05-11 17:37:51 +0000] [22394] [ERROR] Worker (pid:69518) exited with code 1
+[2026-05-11 17:37:51 +0000] [22394] [ERROR] Worker (pid:69518) exited with code 1.
+[2026-05-11 17:37:51 +0000] [74688] [INFO] Booting worker with pid: 74688
+INFO:app.database:✅ MySQL schema ready
+INFO:app:✅ Database initialized successfully
+122.177.247.50 - - [11/May/2026:17:39:18 +0000] "GET / HTTP/1.1" 200 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:18 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:19 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:19 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:19 +0000] "GET /api/appointments/ HTTP/1.1" 200 979 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:20 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:21 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:21 +0000] "GET /api/appointments/ HTTP/1.1" 200 979 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:28 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:29 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:30 +0000] "GET /api/appointments/ HTTP/1.1" 200 979 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:31 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:31 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:32 +0000] "GET /api/doctors/ HTTP/1.1" 200 816 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:32 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:43 +0000] "POST /api/appointments/ HTTP/1.1" 201 233 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:47 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:48 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:49 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:49 +0000] "GET /api/appointments/ HTTP/1.1" 200 1212 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:49 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:49 +0000] "GET /api/appointments/ HTTP/1.1" 200 1212 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:57 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:58 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:58 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:59 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:39:59 +0000] "GET /api/appointments/ HTTP/1.1" 200 1212 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:40:00 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:40:00 +0000] "GET /api/patients/ HTTP/1.1" 200 971 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:40:01 +0000] "GET /api/appointments/ HTTP/1.1" 200 1212 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:40:29 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+122.177.247.50 - - [11/May/2026:17:40:59 +0000] "GET /api/stats HTTP/1.1" 200 85 "http://4.213.179.162:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
